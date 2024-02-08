@@ -74,7 +74,7 @@ a {
 }
 
 .item-name {
-    color: #43F3E5;
+    color: rgb(200, 105, 209);
     font-size: 70px;
     margin: 0;
     font-weight: 900;
@@ -82,7 +82,7 @@ a {
 
 .boton-item {
     padding: 15px;
-    background-color: #43F3E5;
+    background-color: rgb(200, 105, 209);
     border-radius: 50px;
     font-weight: 500;
     cursor: pointer;
@@ -159,8 +159,8 @@ a {
 .container-cite {
     display: flex;
     justify-content: center;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(67, 243, 229, 1) 100%);
+        background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgb(200, 105, 209) 0%, rgb(78, 211, 200) 100%);
 }
 
 .fa-quote-right {
@@ -259,7 +259,7 @@ a {
 
 .item-destacado {
     padding: 15px 40px;
-    background-color: #43F3E5;
+    background-color:rgb(200, 105, 209);
     border-radius: 50px;
 }
 
@@ -296,7 +296,7 @@ a {
 
 .section-footer {
     background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(67, 243, 229, 1) 100%);
+    background: linear-gradient(0deg, rgb(200, 105, 209) 0%, rgb(78, 211, 200) 100%);
     padding: 60px;
     margin-top: 90px;
 }
