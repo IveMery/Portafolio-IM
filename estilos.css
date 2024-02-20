@@ -74,15 +74,17 @@ a {
 }
 
 .item-name {
-    color: rgb(200, 105, 209);
     font-size: 70px;
     margin: 0;
     font-weight: 900;
+    background: linear-gradient(0deg, rgb(200, 105, 209) 0%, rgb(78, 211, 200) 100%);
+    background-clip: text;
+    color: transparent;
 }
 
 .boton-item {
     padding: 15px;
-    background-color: rgb(200, 105, 209);
+    background: linear-gradient(0deg, rgb(200, 105, 209) 0%, rgb(78, 211, 200) 100%);
     border-radius: 50px;
     font-weight: 500;
     cursor: pointer;
@@ -110,7 +112,8 @@ a {
 
 .skills-parrafo {
     text-align: center;
-    margin: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .seccion-conocimientos {
@@ -124,7 +127,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     width: 830px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .contenido-conocimientos {
@@ -159,7 +162,7 @@ a {
 .container-cite {
     display: flex;
     justify-content: center;
-        background: rgb(34, 193, 195);
+    background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgb(200, 105, 209) 0%, rgb(78, 211, 200) 100%);
 }
 
@@ -259,7 +262,7 @@ a {
 
 .item-destacado {
     padding: 15px 40px;
-    background-color:rgb(200, 105, 209);
+    background: linear-gradient(0deg, rgb(200, 105, 209) 0%, rgb(78, 211, 200) 100%);
     border-radius: 50px;
 }
 
@@ -273,7 +276,7 @@ a {
 }
 
 .titulos {
-    padding: 60px;
+    padding: 30px;
     font-size: 50px;
     text-align: center;
     font-weight: 800;
@@ -301,11 +304,14 @@ a {
     margin-top: 90px;
 }
 
-.footer_navenlace, .media_list-enlace {
+.footer_navenlace,
+.media_list-enlace {
     list-style: none;
 }
 
-.footer-list, .media-list, .footer-item {
+.footer-list,
+.media-list,
+.footer-item {
     display: flex;
     justify-content: center;
 }
@@ -374,6 +380,7 @@ a {
 .card-container:hover .btn-container {
     transform: translateY(0);
 }
+
 /* fin seccion footer */
 
 /* ---------------------Fin version escritorio---------------------
