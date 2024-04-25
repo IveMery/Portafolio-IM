@@ -14,4 +14,3 @@ Imágenes:
 -unDraw
 
 
-[Link de la página](https://mi-portfolio.netlify.app)
